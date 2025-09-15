@@ -1,0 +1,37 @@
+transformers
+huggingface_hub
+torch
+pandas
+matplotlib
+plotly
+streamlit
+
+# --- API Framework ---
+fastapi
+uvicorn
+
+# --- Data Handling ---
+pandas
+numpy
+xarray
+netCDF4        # needed for reading Argo NetCDF files
+
+# --- Argo Data ---
+argopy         # Argo float data fetcher
+
+# --- Vector DB ---
+faiss-cpu      # vector similarity search
+
+# --- LLMs (Hugging Face + APIs) ---
+transformers
+accelerate
+bitsandbytes   # for 4/8-bit quantization (efficient local LLMs)
+sentence-transformers  # embeddings for FAISS search
+requests       # for OpenRouter / external API calls
+
+# --- Visualization (for testing & graphs) ---
+matplotlib
+plotly
+
+# --- Utils ---
+python-dotenv  # load API keys (OpenRouter, HF, etc.)
