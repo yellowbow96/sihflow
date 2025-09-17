@@ -1,1 +1,0 @@
-from argo_fetcher import get_latest_float
