@@ -7,7 +7,7 @@ def main():
     prompt = "LLM Large Language Model future "
     result = generator(prompt, max_length=80, num_return_sequences=1)
 
-    print("🤖 LLM Output:\n")
+    print(" LLM Output:\n")
     print(result[0]["generated_text"])
 
 if __name__ == "__main__":
